@@ -1,0 +1,262 @@
+.Container{
+padding: 0 5rem;
+background-color: rgba(0, 0, 0, 0.596);   
+/* display: flex; */
+width:99vw;
+height:100vh;
+/* justify-content: space-around; */
+/* flex-direction: column; */
+text-align: center;
+background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%234FE'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+.Container h1{
+    font-family: "Rancho";
+    font-weight:600;
+    color:#476072;
+    margin-bottom:2rem;
+    font-size:5rem;
+    text-shadow: -3px 5px 6px rgba(0,0,0,0.4);
+    letter-spacing:1rem;
+ 
+}
+
+.Container p{
+    font-family: "Rancho";
+    font-weight:500;
+    font-size:2rem;
+    color:#334257;
+    width:50%;
+    margin-left:30rem;
+    margin-bottom:5rem;
+    text-shadow: -3px 5px 6px rgba(0,0,0,0.6);
+    letter-spacing: 0.3rem;
+    
+}
+.wrapper{
+    display: flex;
+    /* background-color: teal; */
+    justify-content: space-around;
+    height:57%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.0px );
+    -webkit-backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.form{
+margin-top:0.5rem;
+}
+
+.form h2{
+    font-family: "Rancho";
+    font-weight:500;
+    font-size:3rem;
+    color:#334257;
+    letter-spacing: 0.4rem;
+}
+
+.form hr{
+    /* width:0%; */
+    /* height:0.3rem; */
+    margin-top:0.5rem;
+    margin-bottom: 1rem;
+    transform:scale(0);
+    animation:animate 0.3s linear infinite alternate;
+    color:black;
+    border:1.5px solid rgb(60, 59, 59);
+}
+
+
+@keyframes animate{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.form div{
+
+    width:20vw;
+    height:5vh;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgb(95, 95, 95);
+}
+
+.form div input{
+    width:100%;
+    height:100%;
+    outline: none;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+    background: transparent;
+    border: 1px solid black;
+    
+}
+
+.form div textarea{
+    width:100%;
+    height:100%;
+    background: transparent;
+    outline: none;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+}
+
+.form .textarea{
+    height:10vh;
+}
+
+.connect{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+.connect .office{
+    margin-top:-5rem;
+}
+
+.connect .office h2{
+    font-family: "Rancho";
+    font-weight:500;
+    font-size:3rem;
+    color:#334257;
+    letter-spacing: 0.4rem;
+}
+
+.connect .office hr{
+    margin-top:0.5rem;
+    margin-bottom: 1rem;
+    transform:scale(0);
+    animation:animate 0.3s linear infinite alternate;
+    color:black;
+    border:1.5px solid rgb(60, 59, 59);
+}
+
+
+.connect .office span{
+    position: relative;
+    font-size: 2rem;
+   bottom:1rem; 
+   left:1rem;
+   color:#334257;
+}
+
+.connect .office .address{
+    font-family: "Rancho";
+    font-weight:500;
+    font-size:2rem;
+    color:#334257;
+    letter-spacing: 0.4rem;
+}
+
+.connect .icons h2{
+    font-family: "Rancho";
+    font-weight:500;
+    font-size:3rem;
+    color:#334257;
+    margin-top:-5rem;
+    letter-spacing: 0.4rem;
+}
+
+.btn{
+    padding:0.5rem 1rem;
+    border-radius: 0.5rem;
+    border:1px solid black;
+    font-size: 2rem;
+    margin-top:2rem;
+    background: rgba( 255, 255, 255, 0.30 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.15 );
+    color:#334257;
+    cursor: pointer;
+    transform: scale(1);
+    transition:all 0.3s linear;
+    letter-spacing: 0.4rem;
+}
+
+.btn:hover{
+   color:white;
+   background:#595260 ;
+   border:1px solid white;
+   transform: scale(0.9);
+}
+
+
+@media (max-width:768px){
+    .Container h1{
+        font-family: "Rancho";
+        font-weight:600;
+        color:#476072;
+        margin-bottom:2rem;
+        font-size:4rem;
+        text-shadow: -3px 5px 6px rgba(0,0,0,0.4);
+        letter-spacing:1rem;
+     
+    }
+    
+    .Container p{
+        font-family: "Rancho";
+        font-weight:500;
+        font-size:1.5rem;
+        color:#334257;
+        /* width:50%; */
+        margin-left:13rem;
+        margin-bottom:5rem;
+        text-shadow: -3px 5px 6px rgba(0,0,0,0.6);
+        letter-spacing: 0.3rem;
+        
+    }
+    .form h2{
+        font-size: 2.5rem;
+       margin-top: 1rem;
+    }
+    
+    .connect .office h2{
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .connect .office span{
+      font-size: 1.5rem;
+    }
+    
+
+    .connect .office .address{
+        font-size:1.5rem ;
+        margin-top: 1rem;
+    }
+    
+    .connect .icons h2{
+        font-size: 2.5rem;
+        margin-top: -1rem;
+    }
+    
+.form div{
+
+    width:30vw;
+    height:4vh;
+    margin-top: 2rem;
+    
+}
+.btn{
+    padding:0.3rem 0.8rem;
+    font-size: 1.5rem;
+
+}
+
+
+}
